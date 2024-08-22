@@ -1,0 +1,113 @@
+.accessoriesbooking-body {
+    background-size: cover;
+    height:750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.accessoriesbooking-main {
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    align-items: center;
+
+
+}
+
+.accessoriesbooking-main h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.accessoriesbooking-main h4 {
+    color: purple;
+    text-align: center;
+}
+
+.accessoriesbooking-main label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.accessoriesbooking-main input[type="text"],
+.accessoriesbooking-main input[type="tel"],
+.accessoriesbooking-main input[type="email"],
+.accessoriesbooking-main input[type="datetime-local"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.accessoriesbooking-main input[type="checkbox"] {
+    margin-bottom: 10px;
+    width: 30px;
+}
+
+.accessoriesbooking-main button {
+    background-color: white;
+    color: darkred;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.accessoriesbooking-main button:hover {
+    background-color: #45a049;
+}
+
+.accessoriesbooking-checkbox-container {
+    display: flex;
+    margin: 10px 10%;
+
+}
+
+#accessoriesbooking-confirmBookingButton {
+    margin-left: 10px;
+    background-color: white;
+    color: cadetblue;
+}
+
+.accessoriesbooking-popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.accessoriesbooking-popup-content {
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+}
+
+.accessoriesbooking-close-btn {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+.accessoriesbooking-policy h4{
+    color: darkred;
+
+}

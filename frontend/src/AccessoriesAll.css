@@ -1,0 +1,10 @@
+.accessories-container {
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.accessories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}

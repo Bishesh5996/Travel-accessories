@@ -1,0 +1,123 @@
+.accessories-body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.accessories-header {
+    background-color: #004242;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.accessories-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.accessories-filters {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.accessories-dropdown label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.accessories-dropdown select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.accessories-vehicle-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 20px;
+    justify-items: center;
+
+}
+
+.accessories-vehicle-accessoriesd {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #004242;
+}
+
+.accessories-image-container img {
+    width: 100%;
+    display: block;
+}
+
+.accessories-info-container {
+    padding: 16px;
+    background-color: white;
+}
+
+.accessories-location,
+.accessories-seats {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.accessories-location img,
+.accessories-seats img {
+    margin-right: 8px;
+}
+
+.accessories-location,
+.accessories-seats,
+.accessories-price-section {
+    justify-content: flex-start;
+}
+
+.accessories-price-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accessories-price {
+    text-align: left;
+}
+
+.accessories-price .accessories-estimate {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.accessories-price .accessories-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #004242;
+}
+
+.accessories-book-button button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #004242;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.accessories-book-button button:hover {
+    background-color: #218838;
+}
